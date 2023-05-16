@@ -71,6 +71,7 @@
 .ex-9-img:hover {
     filter: brightness(1.5) saturate(2);
     border-radius: 20px;
+    transform: scale(1.5);
 }
 .ex-10-icon {
     font-size: 60px;
@@ -84,7 +85,7 @@
     transform: rotate(0deg);
 }
 100% {
-    transform: rotate(360deg);
+    transform: rotate(-360deg);
 }
 }
 .ex-11-icon {
@@ -134,8 +135,7 @@
 .ex-12-button:hover .ex-12-top-white{
     animation-name: buttontop;
     animation-duration: 3s;
-    animation-timing-function: ease-in;
-    animation-iteration-count: linear;
+    animation-timing-function: linear;
 }
 @keyframes buttontop {
     0% {
@@ -151,8 +151,7 @@
 .ex-12-button:hover .ex-12-bottom-white {
     animation-name: buttonbottom;
     animation-duration: 3s;
-    animation-timing-function: ease-in;
-    animation-iteration-count: linear;
+    animation-timing-function: linear;
 }
 @keyframes buttonbottom{
     0% {
@@ -173,3 +172,4 @@
     width: 60px;
     height: 20px;
 }
+
